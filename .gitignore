@@ -1,0 +1,42 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+*.manifest
+
+# Base de datos local
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+
+# Configuración personal
+.env
+config_local.py
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.bak
+~$*

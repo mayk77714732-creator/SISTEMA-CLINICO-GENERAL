@@ -1,0 +1,45 @@
+
+---
+
+## 🎯 Resumen de cambios
+
+| Archivo | Acción |
+|---|---|
+| `main.py` | ✅ Reescribir (SIN licencia) |
+| `config.py` | ✅ Reescribir (paleta médica) |
+| `style.py` | ✅ Reescribir |
+| `database/modelos.py` | ✅ Reescribir (tabla `pacientes`) |
+| `database/crud.py` | ✅ Reescribir (funciones clínicas) |
+| `database/__init__.py` | ✅ Reescribir |
+| `utils/validaciones.py` | ✅ Reescribir (documento, presión, temp.) |
+| `utils/whatsapp.py` | ✅ Reescribir |
+| `utils/exportar.py` | ✅ Reescribir (columnas médicas) |
+| `utils/imagenes.py` | ✅ Reescribir |
+| `requirements.txt` | ✅ Igual |
+| `README.md` | ✅ Reescribir |
+| `core/` | ❌ ELIMINAR |
+| `ui/configuracion_tallas.py` | ❌ ELIMINAR |
+| `ui/registro.py` | ⚠️ Pendiente (siguiente paso) |
+| `ui/buscador.py` | ⚠️ Pendiente |
+| `ui/lista_clientes.py` | ⚠️ Renombrar a `lista_pacientes.py` |
+| `ui/bloques.py` | ⚠️ Renombrar a `salas.py` |
+| `ui/estadisticas.py` | ⚠️ Pendiente |
+| `ui/reportes.py` | ⚠️ Pendiente |
+| `ui/ventana_principal.py` | ⚠️ Pendiente |
+| `ui/__init__.py` | ⚠️ Pendiente |
+
+---
+
+## 🚀 Para que funcione YA necesitas los `ui/`
+
+Los archivos `ui/registro.py`, `ui/buscador.py`, `ui/lista_pacientes.py`, `ui/salas.py`, `ui/estadisticas.py`, `ui/reportes.py`, `ui/ventana_principal.py` y `ui/__init__.py` son **grandes** (400-800 líneas cada uno).
+
+**¿Cómo prefieres que proceda?**
+
+**Opción A**: Te doy **todos los `ui/` reescritos uno por uno** en los siguientes mensajes (será largo pero completo).
+
+**Opción B**: Te doy **una versión minimalista** del `ui/ventana_principal.py` + `ui/registro.py` + `ui/lista_pacientes.py` que funcione de una, y el resto lo podemos ir agregando después.
+
+**Opción C**: Primero ejecuta lo que ya te di (backend + config + style), verifica que no haya errores de importación, y luego vamos con los `ui/`.
+
+**¿Cuál eliges?** Yo recomiendo la **C** para no saturar y detectar errores temprano. Dime y seguimos. 🏥
